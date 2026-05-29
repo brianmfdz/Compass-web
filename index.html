@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compass</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>🧭 Compass</h1>
+        <div class="compass">
+            <div class="compass-ring">
+                <div class="needle" id="needle">
+                    <div class="needle-north"></div>
+                    <div class="needle-south"></div>
+                </div>
+                <div class="compass-labels">
+                    <span class="label-n">N</span>
+                    <span class="label-e">E</span>
+                    <span class="label-s">S</span>
+                    <span class="label-w">W</span>
+                </div>
+            </div>
+        </div>
+        <div class="info">
+            <p id="degrees">0°</p>
+            <p id="direction">North</p>
+        </div>
+        <div class="coordinates">
+            <p id="coords">Getting location...</p>
+        </div>
+    </div>
+    <script src="js/compass.js"></script>
+</body>
+
+</html>
