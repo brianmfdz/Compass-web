@@ -7,7 +7,7 @@
 body {
     background-color: #0a0a0a;
     color: #ffffff;
-    font-family: 'VT323', monospace;
+    font-family: 'Cascadia Code', monospace;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,7 +55,6 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%) rotate(0deg);
     transform-origin: center center;
-    transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
     z-index: 10;
 }
 
