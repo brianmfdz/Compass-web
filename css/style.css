@@ -25,3 +25,22 @@ h1 {
     letter-spacing: 4px;
     text-transform: uppercase;
 }
+
+.compass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+}
+
+.compass-ring {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.1);
+}
