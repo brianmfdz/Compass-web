@@ -56,7 +56,8 @@ function handleOrientation(event) {
         return;
     }
 
-    needle.style.transform = `translate(-50%, -50%) rotate(${-degrees}deg)`;
+    needle.style.transform = `translate(-50%, -50%) rotate(0deg)`;
+    document.querySelector('.compass-ring').style.transform = `rotate(${-degrees}deg)`;
     degreesDisplay.textContent = `${Math.round(degrees)}°`;
     directionDisplay.textContent = getDirection(degrees);
 }
