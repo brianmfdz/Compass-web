@@ -52,11 +52,11 @@ function handleOrientation(event) {
 
     // alpha is null when sensor is unavailable or not calibrate
     if (degrees === null) {
-        degreesDisplay.textContent = 'Not supported';
+        degreesDisplay.textContent = 'Compass functionality requires a mobile device with a magnetometer';
         return;
     }
 
-    needle.style.transform = `translate(-50%, -50%) rotate(0deg)`;
+
     document.querySelector('.compass-ring').style.transform = `rotate(${-degrees}deg)`;
     degreesDisplay.textContent = `${Math.round(degrees)}°`;
     directionDisplay.textContent = getDirection(degrees);
